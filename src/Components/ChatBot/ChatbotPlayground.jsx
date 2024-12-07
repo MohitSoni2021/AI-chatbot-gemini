@@ -159,7 +159,7 @@ const ChatbotPlaygroundComponent = ({isChatbothidden}) => {
           <div className={`flex p-1 border-2 rounded-full items-center gap-2 ${(theme[0].type=="light")?"border-black text-black":"border-white text-white"}`}>
             <input type="text" className='bg-transparent border-none outline-none w-full p-1 ' placeholder='Type a message...' 
               value={userInputQuery}
-              onChange={e=>{setUserInputQuery(e.target.value); setStartingPoint(3)}}
+              onChange={e=>{setUserInputQuery(e.target.value); setStartingPoint(2)}}
               onKeyDown={(e)=>{
                 if(e.key == "Enter"){
                   getData()  
