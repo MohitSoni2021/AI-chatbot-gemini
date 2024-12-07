@@ -1,0 +1,4 @@
+.scrollbar-hidden {
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
